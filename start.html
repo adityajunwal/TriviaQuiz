@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="display">
+        <p id="question">Q1. Which is the smallest Planet?</p>
+        <div id="options">
+            <button onclick="submit('option1')" class="option" id="option1">Earth</button>
+            <button onclick="submit('option2')" class="option" id="option2">Mercury</button>
+            <button onclick="submit('option3')" class="option" id="option3">Jupiter</button>
+            <button onclick="submit('option4')" class="option" id="option4">Saturn</button>
+        </div>
+    </div>
+
+    <div id="score-board">
+        <div class="counter" id="correct-counter">
+            <p>CORRECT</p>
+            <p class="counter-number" id="correct">10</p>
+        </div>
+        <div class="counter" id="incorrect-counter">
+            <p>INCORRECT</p>
+            <p class="counter-number" id="incorrect">10</p>
+        </div>
+        <div class="counter" id="ques-attempted">
+            <p>TOTAL</p>
+            <p class="counter-number" id="total">10</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

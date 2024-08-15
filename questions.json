@@ -1,0 +1,82 @@
+[
+    {
+        "text": "What is the capital of France?",
+        "option1": "Berlin",
+        "option2": "Madrid",
+        "option3": "Paris",
+        "option4": "Lisbon",
+        "correct": "Paris"
+    },
+    {
+        "text": "What is the largest planet in our solar system?",
+        "option1": "Earth",
+        "option2": "Jupiter",
+        "option3": "Saturn",
+        "option4": "Mars",
+        "correct": "Jupiter"
+    },
+    {
+        "text": "What is the chemical symbol for gold?",
+        "option1": "Au",
+        "option2": "Ag",
+        "option3": "Gd",
+        "option4": "Pb",
+        "correct": "Au"
+    },
+    {
+        "text": "Who wrote 'To Kill a Mockingbird'?",
+        "option1": "Harper Lee",
+        "option2": "Mark Twain",
+        "option3": "J.K. Rowling",
+        "option4": "Ernest Hemingway",
+        "correct": "Harper Lee"
+    },
+    {
+        "text": "What is the smallest prime number?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "5",
+        "correct": "2"
+    },
+    {
+        "text": "Which planet is known as the Red Planet?",
+        "option1": "Venus",
+        "option2": "Saturn",
+        "option3": "Mars",
+        "option4": "Jupiter",
+        "correct": "Mars"
+    },
+    {
+        "text": "What is the boiling point of water?",
+        "option1": "90°C",
+        "option2": "100°C",
+        "option3": "110°C",
+        "option4": "120°C",
+        "correct": "100°C"
+    },
+    {
+        "text": "Who painted the Mona Lisa?",
+        "option1": "Vincent Van Gogh",
+        "option2": "Pablo Picasso",
+        "option3": "Leonardo da Vinci",
+        "option4": "Claude Monet",
+        "correct": "Leonardo da Vinci"
+    },
+    {
+        "text": "Which country is the largest by area?",
+        "option1": "USA",
+        "option2": "Canada",
+        "option3": "China",
+        "option4": "Russia",
+        "correct": "Russia"
+    },
+    {
+        "text": "What is the main ingredient in guacamole?",
+        "option1": "Tomato",
+        "option2": "Avocado",
+        "option3": "Onion",
+        "option4": "Lemon",
+        "correct": "Avocado"
+    }
+]
