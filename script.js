@@ -105,16 +105,17 @@ correctCounter.innerText = correct;
 incorrectCounter.innerText = incorrect;
 totalQuestionsAttempted.innerText = total;
 
-function next () {
-    if (currentQuestionIndex < data.length - 1){
-        currentQuestionIndex ++;
+function next() {
+    if (currentQuestionIndex < data.length - 1) {
+        currentQuestionIndex++;
         question.innerText = data[currentQuestionIndex].text;
         option1.innerText = data[currentQuestionIndex].option1;
         option2.innerText = data[currentQuestionIndex].option2;
         option3.innerText = data[currentQuestionIndex].option3;
         option4.innerText = data[currentQuestionIndex].option4;
     }
-   else {
+    else {
+        localStorage.setItem('score', correct);
         window.location.href = "thanks.html"
     }
 }
@@ -122,18 +123,18 @@ function next () {
 function submit(answer) {
     var submittedAnswer = answer;
     check(submittedAnswer)
-} 
+}
 
 function check(submition) {
-    if (submition == data[currentQuestionIndex].correct){
+    if (submition == data[currentQuestionIndex].correct) {
         correct++;
         correctCounter.innerText = correct;
-    } 
+    }
     else {
         incorrect++;
         incorrectCounter.innerText = incorrect;
-    } 
-    total ++;
+    }
+    total++;
     totalQuestionsAttempted.innerText = total;
     next();
 }
